@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cart-page">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items">
+            <!-- Cart items will be injected here by JavaScript -->
+        </div>
+        <div class="cart-total">
+            <span>Total: $<span id="total-price">0.00</span></span>
+        </div>
+        <div id="order-popup" class="popup">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                <p>Your order will be delivered within 2 days.</p>
+            </div>
+        </div>
+           <button class="place-order">Place Order</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
